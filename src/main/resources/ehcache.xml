@@ -1,0 +1,12 @@
+<ehcache
+        xsi:noNamespaceSchemaLocation="ehcache.xsd">
+
+    <cache name="job-cache"
+           maxBytesLocalHeap="30M"
+           eternal="false"
+           timeToIdleSeconds="15">
+        <persistence strategy="none"/>
+    </cache>
+
+</ehcache>
+  
